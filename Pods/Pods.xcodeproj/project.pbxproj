@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0684D5E7951C7E26F99EAB6E /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 82793916AB58450FC9579241 /* CYRToken.m */; };
+		0AD37639C1A9396A132EE846 /* HRColorCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 975451AF7531DC6A063DA93A /* HRColorCursor.h */; };
+		19BF1DA84A637C8B68D96662 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEA98DF9EB2AFDD11C4E0C /* CoreGraphics.framework */; };
+		29141A15B5A55D4186B4DD6A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087AE40214A030B11C25919C /* CoreText.framework */; };
+		308F57CB99655E069EB8F200 /* HRColorPickerMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A65D49CB9E942D8DB04DD905 /* HRColorPickerMacros.h */; };
+		3BA930072942CC46B8331C7A /* ZSSRichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A9C8A2AA2D2802461DE00E /* ZSSRichTextEditor.m */; };
+		3DEC318ED9A6B747E56D82AA /* ZSSColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C239477CF568A3C8584969B /* ZSSColorViewController.m */; };
+		3E427672C3931B4F3C83511B /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A47C46B0F3E17C32061504 /* HRColorCursor.m */; };
+		3FB5B70824E9560306B7E68F /* ZSSCustomButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B46F0370BBA76FAA2F645C /* ZSSCustomButtonsViewController.m */; };
+		4559F04CB95FF02F46E88EA8 /* CYRTextStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = D12F644FF156963E9A6FA23E /* CYRTextStorage.h */; };
+		45989BF509FC1618C4718674 /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F44B59AB8F784C0CB3356 /* HRBrightnessCursor.m */; };
+		4677B6E750997E700F769F62 /* HRColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FC93C11D2E40A824A15FB7 /* HRColorPickerView.h */; };
+		4D576B6B5B27EFD2392E92C3 /* HRCgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C452CCD2E2207C7C9137E54 /* HRCgUtil.m */; };
+		4E86FA0E4B84D6D4CDF8E8D6 /* HRColorPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C51207146F5A93EAC982572F /* HRColorPickerViewController.h */; };
+		4FF1ACCDB9C6F6D161CE1EA2 /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9636412A056B2BE3DF5BE7 /* CYRTextStorage.m */; };
+		522AA360EB4BDBA301B7BE03 /* HRColorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C5367440CD71120388B67F /* HRColorUtil.h */; };
+		53259C1FB1D4E8D177B8A04B /* ZSSBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B885BDB3C51A1FE8606A6 /* ZSSBarButtonItem.m */; };
+		55510AEE1D4B8E08C5A60BB7 /* ZSSSelectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3853C23ADF827EF8F6BE0DA2 /* ZSSSelectiveViewController.m */; };
+		5CD1C77576A0B0803474E931 /* CYRLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BB80D45FE8017D7EA082DB /* CYRLayoutManager.h */; };
+		6BCFED1E7F3A9B834D57E135 /* HRBrightnessCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D97396CB6655C21EBADBA1F /* HRBrightnessCursor.h */; };
+		6EA4CCBE6AD69392495A92C1 /* CYRToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D72432403FD062C25A65358 /* CYRToken.h */; };
+		75BC21683CD3A23FE1EBBE7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C710843F9FE14EFAF5A5930 /* Foundation.framework */; };
+		780C313803A973BE0E2ED92C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C710843F9FE14EFAF5A5930 /* Foundation.framework */; };
+		7815F1F03B38E22DC94FDF54 /* ZSSLargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05618BCD9D683DE428389815 /* ZSSLargeViewController.m */; };
+		78CFC672570599D9B1F4DD0D /* ZSSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA2B6688DB87E412008656 /* ZSSTextView.m */; };
+		7FB7A02FDEBFF9B517F65805 /* ZSSCustomButtonsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4F662B8F1972D616B72F9C /* ZSSCustomButtonsViewController.h */; };
+		866C56BE6A1C21D318F9FC0A /* HRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECEE15CF869F0E0C8E8C41A /* HRColorPickerViewController.m */; };
+		88821B3992EA069EE6673241 /* ZSSPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390694E8DB86461290525426 /* ZSSPlaceholderViewController.m */; };
+		8EAEC71EC6AEA15EECC87CB4 /* ZSSBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE1DD8A6C6B31A87F72F133 /* ZSSBarButtonItem.h */; };
+		A56E58F430709EEE350F631F /* ZSSLargeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B59914FDEF81EB42566DE5F3 /* ZSSLargeViewController.h */; };
+		B1C22748ECE97175F74D6450 /* ZSSSelectiveViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EA81312E9FCFEBACD569D8 /* ZSSSelectiveViewController.h */; };
+		B29B64B71F2B8EE118F9FD38 /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0ACAEE89C29B963F83C2A1 /* CYRLayoutManager.m */; };
+		B6F038DD01415506F2B15124 /* ZSSRichTextEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DD84F8701BD379C14CD4B4 /* ZSSRichTextEditor.h */; };
+		C18F53F221BB32161DCF2CA6 /* HRColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 492070631FBE6825CE1306E5 /* HRColorUtil.m */; };
+		C1BCC08041E0B8A90195C9C6 /* ZSSTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A2A933525F7B11BCCFD607 /* ZSSTextView.h */; };
+		CE37D70D881BDDBD98B4C1BF /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C7B46DEDC15868F48C85 /* HRColorPickerView.m */; };
+		CF92D28060A3838D54E7A6E8 /* ZSSColorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C76DCBB194B91D225655C5 /* ZSSColorViewController.h */; };
+		DCEC63D6C0F16453F9BAAF5B /* CYRTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D10CD6C4E4164EAC8B2FD23F /* CYRTextView.h */; };
+		E16F2E3C3256AD0DDA6EF2CA /* ZSSPlaceholderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C468FD8A50D8EABA4E6FF157 /* ZSSPlaceholderViewController.h */; };
+		ECF67E5303EAAAF483ED102B /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0813EEB91F3B58E80F2BBD /* CYRTextView.m */; };
+		EFC99EA505D3EA7DC99AE70F /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007EFE0A6485134AF409B1A /* Pods-dummy.m */; };
+		F3886E77A29601059A218239 /* HRCgUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D023BD2E99B13C66E5A79966 /* HRCgUtil.h */; };
+		F61CACD1BECE7614EA0F6CB0 /* Pods-ZSSRichTextEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0302182D11854B2BD3E1F3A6 /* Pods-ZSSRichTextEditor-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE04F5E646D8C39A2AD90D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4289B897517BEA2A2801352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8521E9119C553AFC42C8BEE;
+			remoteInfo = "Pods-ZSSRichTextEditor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0007EFE0A6485134AF409B1A /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		0302182D11854B2BD3E1F3A6 /* Pods-ZSSRichTextEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSSRichTextEditor-dummy.m"; sourceTree = "<group>"; };
+		05618BCD9D683DE428389815 /* ZSSLargeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZSSLargeViewController.m; path = ZSSRichTextEditor/ZSSLargeViewController.m; sourceTree = "<group>"; };
+		05EA81312E9FCFEBACD569D8 /* ZSSSelectiveViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZSSSelectiveViewController.h; path = ZSSRichTextEditor/ZSSSelectiveViewController.h; sourceTree = "<group>"; };
+		0701BC14DB22864B0D7A202A /* Pods-ZSSRichTextEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSSRichTextEditor-prefix.pch"; sourceTree = "<group>"; };
+		073759237BF19C00416A17D8 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		07819BD7FC7DF08674026B15 /* ZSSh1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSh1.png; path = ZSSRichTextEditor/Images/ZSSh1.png; sourceTree = "<group>"; };
+		087AE40214A030B11C25919C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		0AF864F01D89DF62F1298F2D /* ZSSredo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSredo@2x.png"; path = "ZSSRichTextEditor/Images/ZSSredo@2x.png"; sourceTree = "<group>"; };
+		0B3B885BDB3C51A1FE8606A6 /* ZSSBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZSSBarButtonItem.m; path = ZSSRichTextEditor/ZSSBarButtonItem.m; sourceTree = "<group>"; };
+		0B3BFE1DFEA9812C4E190646 /* ZSSpicker.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSpicker.png; path = ZSSRichTextEditor/Images/ZSSpicker.png; sourceTree = "<group>"; };
+		0CA0438F710DC46BACECFD68 /* ZSSitalic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSitalic.png; path = ZSSRichTextEditor/Images/ZSSitalic.png; sourceTree = "<group>"; };
+		0ECEE15CF869F0E0C8E8C41A /* HRColorPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorPickerViewController.m; path = "ZSSRichTextEditor/Third Party/HRColorPickerViewController.m"; sourceTree = "<group>"; };
+		0F6F79CC4EFA114A56FDADC5 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		10FF6722A9EDE23A11A2DF59 /* ZSSclearstyle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSclearstyle@2x.png"; path = "ZSSRichTextEditor/Images/ZSSclearstyle@2x.png"; sourceTree = "<group>"; };
+		14EFF0BE7F2247A683AFE3FE /* ZSSquicklink@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSquicklink@2x.png"; path = "ZSSRichTextEditor/Images/ZSSquicklink@2x.png"; sourceTree = "<group>"; };
+		15D8F93BD6D510E418351C95 /* ZSSparagraph.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSparagraph.png; path = ZSSRichTextEditor/Images/ZSSparagraph.png; sourceTree = "<group>"; };
+		15FC93C11D2E40A824A15FB7 /* HRColorPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorPickerView.h; path = "ZSSRichTextEditor/Third Party/HRColorPickerView.h"; sourceTree = "<group>"; };
+		18AC595D7EB07E16CE381471 /* ZSSquicklink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSquicklink.png; path = ZSSRichTextEditor/Images/ZSSquicklink.png; sourceTree = "<group>"; };
+		1B1F44B59AB8F784C0CB3356 /* HRBrightnessCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRBrightnessCursor.m; path = "ZSSRichTextEditor/Third Party/HRBrightnessCursor.m"; sourceTree = "<group>"; };
+		1C710843F9FE14EFAF5A5930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		21EBA375881FD4360BE045EF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		236F3BB54A3388E974EF34A0 /* ZSSh6.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSh6.png; path = ZSSRichTextEditor/Images/ZSSh6.png; sourceTree = "<group>"; };
+		2576ADB10DA8C85B41D81E48 /* ZSSlink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSlink.png; path = ZSSRichTextEditor/Images/ZSSlink.png; sourceTree = "<group>"; };
+		25C8A904540384B859E5F1CF /* ZSSbold@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSbold@2x.png"; path = "ZSSRichTextEditor/Images/ZSSbold@2x.png"; sourceTree = "<group>"; };
+		26219C89D5197F2D1310BD0D /* ZSSunlink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSunlink.png; path = ZSSRichTextEditor/Images/ZSSunlink.png; sourceTree = "<group>"; };
+		2FA692EB96A7792B3C776852 /* ZSSorderedlist.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSorderedlist.png; path = ZSSRichTextEditor/Images/ZSSorderedlist.png; sourceTree = "<group>"; };
+		306C744DAFA9E06863E1761E /* ZSSh3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSh3.png; path = ZSSRichTextEditor/Images/ZSSh3.png; sourceTree = "<group>"; };
+		347BFA4E41FB7FEE3A35E479 /* ZSSunorderedlist.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSunorderedlist.png; path = ZSSRichTextEditor/Images/ZSSunorderedlist.png; sourceTree = "<group>"; };
+		376BB08F5C27D49DDC63EBFD /* ZSSoutdent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSoutdent.png; path = ZSSRichTextEditor/Images/ZSSoutdent.png; sourceTree = "<group>"; };
+		3853C23ADF827EF8F6BE0DA2 /* ZSSSelectiveViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZSSSelectiveViewController.m; path = ZSSRichTextEditor/ZSSSelectiveViewController.m; sourceTree = "<group>"; };
+		390694E8DB86461290525426 /* ZSSPlaceholderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZSSPlaceholderViewController.m; path = ZSSRichTextEditor/ZSSPlaceholderViewController.m; sourceTree = "<group>"; };
+		3AA2C33F5BCB2DE4CF8663E2 /* ZSSunlink@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSunlink@2x.png"; path = "ZSSRichTextEditor/Images/ZSSunlink@2x.png"; sourceTree = "<group>"; };
+		3C0813EEB91F3B58E80F2BBD /* CYRTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYRTextView.m; path = "ZSSRichTextEditor/Third Party/CYRTextView.m"; sourceTree = "<group>"; };
+		3CD20055DEE9056E19DCEE5E /* ZSSindent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSindent.png; path = ZSSRichTextEditor/Images/ZSSindent.png; sourceTree = "<group>"; };
+		3EAFCA6CF7A011E41193A1AE /* ZSSoutdent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSoutdent@2x.png"; path = "ZSSRichTextEditor/Images/ZSSoutdent@2x.png"; sourceTree = "<group>"; };
+		412E609491DFE2915384FEAD /* ZSShorizontalrule.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSShorizontalrule.png; path = ZSSRichTextEditor/Images/ZSShorizontalrule.png; sourceTree = "<group>"; };
+		41D70D552A753201023E7332 /* ZSSparagraph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSparagraph@2x.png"; path = "ZSSRichTextEditor/Images/ZSSparagraph@2x.png"; sourceTree = "<group>"; };
+		438D415406FC860D89A1D387 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		43C4AB7AB0E2125784B6A13C /* ZSSunderline.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSunderline.png; path = ZSSRichTextEditor/Images/ZSSunderline.png; sourceTree = "<group>"; };
+		4584E50731CC8D0A09B7D1F3 /* ZSSunorderedlist@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSunorderedlist@2x.png"; path = "ZSSRichTextEditor/Images/ZSSunorderedlist@2x.png"; sourceTree = "<group>"; };
+		4599D6F3A29D662520FA4DCD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CB2279BF2F1B953300BA66 /* ZSSforcejustify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSforcejustify.png; path = ZSSRichTextEditor/Images/ZSSforcejustify.png; sourceTree = "<group>"; };
+		487D1657AB8220072803E654 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		492070631FBE6825CE1306E5 /* HRColorUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorUtil.m; path = "ZSSRichTextEditor/Third Party/HRColorUtil.m"; sourceTree = "<group>"; };
+		4B76F3174A52A304918E84EC /* ZSSimage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSimage@2x.png"; path = "ZSSRichTextEditor/Images/ZSSimage@2x.png"; sourceTree = "<group>"; };
+		51F9181A2C475064C9EF2617 /* ZSStextcolor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSStextcolor@2x.png"; path = "ZSSRichTextEditor/Images/ZSStextcolor@2x.png"; sourceTree = "<group>"; };
+		53AC8068F804B167EAFD784E /* ZSSleftjustify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSleftjustify@2x.png"; path = "ZSSRichTextEditor/Images/ZSSleftjustify@2x.png"; sourceTree = "<group>"; };
+		57FB10820CB1B636CA8F08E7 /* ZSSviewsource@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSviewsource@2x.png"; path = "ZSSRichTextEditor/Images/ZSSviewsource@2x.png"; sourceTree = "<group>"; };
+		5B4815531EB3B04499CF5D1C /* ZSSh6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSh6@2x.png"; path = "ZSSRichTextEditor/Images/ZSSh6@2x.png"; sourceTree = "<group>"; };
+		5DD66C7EDAE03D1D76041AA7 /* ZSSleftjustify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSleftjustify.png; path = ZSSRichTextEditor/Images/ZSSleftjustify.png; sourceTree = "<group>"; };
+		5EBA2B6688DB87E412008656 /* ZSSTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZSSTextView.m; path = ZSSRichTextEditor/ZSSTextView.m; sourceTree = "<group>"; };
+		5F0ACAEE89C29B963F83C2A1 /* CYRLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYRLayoutManager.m; path = "ZSSRichTextEditor/Third Party/CYRLayoutManager.m"; sourceTree = "<group>"; };
+		61C269ABFDE2273D7F9E70F4 /* ZSSh2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSh2@2x.png"; path = "ZSSRichTextEditor/Images/ZSSh2@2x.png"; sourceTree = "<group>"; };
+		62D2F78AA2009C53F2A8FB8E /* ZSSsuperscript@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSsuperscript@2x.png"; path = "ZSSRichTextEditor/Images/ZSSsuperscript@2x.png"; sourceTree = "<group>"; };
+		68C4EB53297A2AFE5CD1D2D1 /* ZSSh4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSh4.png; path = ZSSRichTextEditor/Images/ZSSh4.png; sourceTree = "<group>"; };
+		6D97396CB6655C21EBADBA1F /* HRBrightnessCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRBrightnessCursor.h; path = "ZSSRichTextEditor/Third Party/HRBrightnessCursor.h"; sourceTree = "<group>"; };
+		6DAE64925E76B86E4E87D150 /* ZSSitalic@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSitalic@2x.png"; path = "ZSSRichTextEditor/Images/ZSSitalic@2x.png"; sourceTree = "<group>"; };
+		6F4468571607D0CDFA1FBE2C /* ZSSpicker@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSpicker@2x.png"; path = "ZSSRichTextEditor/Images/ZSSpicker@2x.png"; sourceTree = "<group>"; };
+		72BC75796F7258346382C6A4 /* ZSSkeyboard@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSkeyboard@2x.png"; path = "ZSSRichTextEditor/Images/ZSSkeyboard@2x.png"; sourceTree = "<group>"; };
+		7A3201D59C38FF2C803F3463 /* ZSSh1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSh1@2x.png"; path = "ZSSRichTextEditor/Images/ZSSh1@2x.png"; sourceTree = "<group>"; };
+		7D162F811076BA6CA0F82B84 /* ZSSstrikethrough@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSstrikethrough@2x.png"; path = "ZSSRichTextEditor/Images/ZSSstrikethrough@2x.png"; sourceTree = "<group>"; };
+		80CBA979A62BB4656BC6A856 /* ZSSclearstyle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSclearstyle.png; path = ZSSRichTextEditor/Images/ZSSclearstyle.png; sourceTree = "<group>"; };
+		815E5F4A56FBBBACC94A3EEF /* ZSSlink@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSlink@2x.png"; path = "ZSSRichTextEditor/Images/ZSSlink@2x.png"; sourceTree = "<group>"; };
+		822BD960C58A68987353A173 /* ZSSstrikethrough.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSstrikethrough.png; path = ZSSRichTextEditor/Images/ZSSstrikethrough.png; sourceTree = "<group>"; };
+		82793916AB58450FC9579241 /* CYRToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYRToken.m; path = "ZSSRichTextEditor/Third Party/CYRToken.m"; sourceTree = "<group>"; };
+		831DCFE469A2A890FF85E201 /* ZSSundo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSundo@2x.png"; path = "ZSSRichTextEditor/Images/ZSSundo@2x.png"; sourceTree = "<group>"; };
+		8320A16203A45D89FDAFB864 /* ZSSsubscript.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSsubscript.png; path = ZSSRichTextEditor/Images/ZSSsubscript.png; sourceTree = "<group>"; };
+		8405B1380D27DD3A47030F11 /* ZSSredo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSredo.png; path = ZSSRichTextEditor/Images/ZSSredo.png; sourceTree = "<group>"; };
+		88A2A933525F7B11BCCFD607 /* ZSSTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZSSTextView.h; path = ZSSRichTextEditor/ZSSTextView.h; sourceTree = "<group>"; };
+		89C76DCBB194B91D225655C5 /* ZSSColorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZSSColorViewController.h; path = ZSSRichTextEditor/ZSSColorViewController.h; sourceTree = "<group>"; };
+		8AD8F28ED9D2619A864D2164 /* ZSSrightjustify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSrightjustify.png; path = ZSSRichTextEditor/Images/ZSSrightjustify.png; sourceTree = "<group>"; };
+		8B05798A7F0ED96C7E15EE3F /* ZSSh2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSh2.png; path = ZSSRichTextEditor/Images/ZSSh2.png; sourceTree = "<group>"; };
+		8C9636412A056B2BE3DF5BE7 /* CYRTextStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYRTextStorage.m; path = "ZSSRichTextEditor/Third Party/CYRTextStorage.m"; sourceTree = "<group>"; };
+		8D4F662B8F1972D616B72F9C /* ZSSCustomButtonsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZSSCustomButtonsViewController.h; path = ZSSRichTextEditor/ZSSCustomButtonsViewController.h; sourceTree = "<group>"; };
+		8D72432403FD062C25A65358 /* CYRToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYRToken.h; path = "ZSSRichTextEditor/Third Party/CYRToken.h"; sourceTree = "<group>"; };
+		90C5367440CD71120388B67F /* HRColorUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorUtil.h; path = "ZSSRichTextEditor/Third Party/HRColorUtil.h"; sourceTree = "<group>"; };
+		90F8CE0A3DA59B3488E9868A /* libPods-ZSSRichTextEditor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZSSRichTextEditor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		911872976440DCE508CFC6BB /* Pods-ZSSRichTextEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSSRichTextEditor.xcconfig"; sourceTree = "<group>"; };
+		932C0DAC052175390004141C /* ZSStextcolor.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSStextcolor.png; path = ZSSRichTextEditor/Images/ZSStextcolor.png; sourceTree = "<group>"; };
+		944817C7965ABA715F6B5526 /* ZSShorizontalrule@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSShorizontalrule@2x.png"; path = "ZSSRichTextEditor/Images/ZSShorizontalrule@2x.png"; sourceTree = "<group>"; };
+		967E61C6B853AEE45BB68463 /* ZSSundo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSundo.png; path = ZSSRichTextEditor/Images/ZSSundo.png; sourceTree = "<group>"; };
+		96BB80D45FE8017D7EA082DB /* CYRLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYRLayoutManager.h; path = "ZSSRichTextEditor/Third Party/CYRLayoutManager.h"; sourceTree = "<group>"; };
+		975451AF7531DC6A063DA93A /* HRColorCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorCursor.h; path = "ZSSRichTextEditor/Third Party/HRColorCursor.h"; sourceTree = "<group>"; };
+		9977EF7EBF984EF683EC2C91 /* editor.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = editor.html; path = ZSSRichTextEditor/editor.html; sourceTree = "<group>"; };
+		9BE1DD8A6C6B31A87F72F133 /* ZSSBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZSSBarButtonItem.h; path = ZSSRichTextEditor/ZSSBarButtonItem.h; sourceTree = "<group>"; };
+		9C239477CF568A3C8584969B /* ZSSColorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZSSColorViewController.m; path = ZSSRichTextEditor/ZSSColorViewController.m; sourceTree = "<group>"; };
+		9C452CCD2E2207C7C9137E54 /* HRCgUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRCgUtil.m; path = "ZSSRichTextEditor/Third Party/HRCgUtil.m"; sourceTree = "<group>"; };
+		A0B46F0370BBA76FAA2F645C /* ZSSCustomButtonsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZSSCustomButtonsViewController.m; path = ZSSRichTextEditor/ZSSCustomButtonsViewController.m; sourceTree = "<group>"; };
+		A2AF777D79BF5E9191E64418 /* ZSSimage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSimage.png; path = ZSSRichTextEditor/Images/ZSSimage.png; sourceTree = "<group>"; };
+		A65D49CB9E942D8DB04DD905 /* HRColorPickerMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorPickerMacros.h; path = "ZSSRichTextEditor/Third Party/HRColorPickerMacros.h"; sourceTree = "<group>"; };
+		A848C7B46DEDC15868F48C85 /* HRColorPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorPickerView.m; path = "ZSSRichTextEditor/Third Party/HRColorPickerView.m"; sourceTree = "<group>"; };
+		A8B0183FAE5553D45D74FDBE /* ZSSbold.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSbold.png; path = ZSSRichTextEditor/Images/ZSSbold.png; sourceTree = "<group>"; };
+		AAAC37F5EDF8D2DA2BAD28B0 /* ZSSviewsource.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSviewsource.png; path = ZSSRichTextEditor/Images/ZSSviewsource.png; sourceTree = "<group>"; };
+		AD0201D914FF91288B59305E /* ZSSorderedlist@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSorderedlist@2x.png"; path = "ZSSRichTextEditor/Images/ZSSorderedlist@2x.png"; sourceTree = "<group>"; };
+		AE2DB7B2AADC5D9DE0A3CE30 /* ZSSh3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSh3@2x.png"; path = "ZSSRichTextEditor/Images/ZSSh3@2x.png"; sourceTree = "<group>"; };
+		B1C7CF69EB697D09F39F8DEC /* ZSSinsertkeyword@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSinsertkeyword@2x.png"; path = "ZSSRichTextEditor/Images/ZSSinsertkeyword@2x.png"; sourceTree = "<group>"; };
+		B40FB20524A774FE0DAFAC89 /* ZSSforcejustify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSforcejustify@2x.png"; path = "ZSSRichTextEditor/Images/ZSSforcejustify@2x.png"; sourceTree = "<group>"; };
+		B59914FDEF81EB42566DE5F3 /* ZSSLargeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZSSLargeViewController.h; path = ZSSRichTextEditor/ZSSLargeViewController.h; sourceTree = "<group>"; };
+		B8ECF8265B3217C417F26F52 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		BDAF122C08E3CF646832D978 /* ZSScenterjustify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSScenterjustify@2x.png"; path = "ZSSRichTextEditor/Images/ZSScenterjustify@2x.png"; sourceTree = "<group>"; };
+		BDB563CE89245E8E797D2778 /* ZSSh5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSh5@2x.png"; path = "ZSSRichTextEditor/Images/ZSSh5@2x.png"; sourceTree = "<group>"; };
+		C3436927C5D522E00E216661 /* ZSSkeyboard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSkeyboard.png; path = ZSSRichTextEditor/Images/ZSSkeyboard.png; sourceTree = "<group>"; };
+		C468FD8A50D8EABA4E6FF157 /* ZSSPlaceholderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZSSPlaceholderViewController.h; path = ZSSRichTextEditor/ZSSPlaceholderViewController.h; sourceTree = "<group>"; };
+		C51207146F5A93EAC982572F /* HRColorPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorPickerViewController.h; path = "ZSSRichTextEditor/Third Party/HRColorPickerViewController.h"; sourceTree = "<group>"; };
+		C5FCA4EFCC67645E235AFE45 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		C74D7E4F72B6BF2B2C5F8583 /* Pods-ZSSRichTextEditor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSSRichTextEditor-Private.xcconfig"; sourceTree = "<group>"; };
+		C7985D067EA4265676D52AE3 /* ZSSrightjustify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSrightjustify@2x.png"; path = "ZSSRichTextEditor/Images/ZSSrightjustify@2x.png"; sourceTree = "<group>"; };
+		C8228854591A7115152F5CE7 /* ZSSh5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSh5.png; path = ZSSRichTextEditor/Images/ZSSh5.png; sourceTree = "<group>"; };
+		D023BD2E99B13C66E5A79966 /* HRCgUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRCgUtil.h; path = "ZSSRichTextEditor/Third Party/HRCgUtil.h"; sourceTree = "<group>"; };
+		D10CD6C4E4164EAC8B2FD23F /* CYRTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYRTextView.h; path = "ZSSRichTextEditor/Third Party/CYRTextView.h"; sourceTree = "<group>"; };
+		D12F644FF156963E9A6FA23E /* CYRTextStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYRTextStorage.h; path = "ZSSRichTextEditor/Third Party/CYRTextStorage.h"; sourceTree = "<group>"; };
+		D3539983CDA5199B6A38940E /* ZSStable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSStable.png; path = ZSSRichTextEditor/Images/ZSStable.png; sourceTree = "<group>"; };
+		D5A47C46B0F3E17C32061504 /* HRColorCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorCursor.m; path = "ZSSRichTextEditor/Third Party/HRColorCursor.m"; sourceTree = "<group>"; };
+		D9408101A949B720B67FFD01 /* ZSSbgcolor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSbgcolor@2x.png"; path = "ZSSRichTextEditor/Images/ZSSbgcolor@2x.png"; sourceTree = "<group>"; };
+		D9F13A04A46747660CAA8808 /* ZSSsuperscript.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSsuperscript.png; path = ZSSRichTextEditor/Images/ZSSsuperscript.png; sourceTree = "<group>"; };
+		DD06EBC7F2EDB5D92EE95EF8 /* ZSSRichTextEditor.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = ZSSRichTextEditor.js; path = ZSSRichTextEditor/ZSSRichTextEditor.js; sourceTree = "<group>"; };
+		DD278486E8338DCAE1E64152 /* ZSSsubscript@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSsubscript@2x.png"; path = "ZSSRichTextEditor/Images/ZSSsubscript@2x.png"; sourceTree = "<group>"; };
+		E049E0BD9DB15C75226761B1 /* ZSSh4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSh4@2x.png"; path = "ZSSRichTextEditor/Images/ZSSh4@2x.png"; sourceTree = "<group>"; };
+		E1CEA98DF9EB2AFDD11C4E0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E4B03D81B2AFA52A536C9102 /* ZSSunderline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSunderline@2x.png"; path = "ZSSRichTextEditor/Images/ZSSunderline@2x.png"; sourceTree = "<group>"; };
+		E614BA772183F2F54037FF27 /* ZSSbgcolor.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSbgcolor.png; path = ZSSRichTextEditor/Images/ZSSbgcolor.png; sourceTree = "<group>"; };
+		EBF1BD5E1346677C7FCEA64B /* ZSScenterjustify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSScenterjustify.png; path = ZSSRichTextEditor/Images/ZSScenterjustify.png; sourceTree = "<group>"; };
+		F0DD84F8701BD379C14CD4B4 /* ZSSRichTextEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZSSRichTextEditor.h; path = ZSSRichTextEditor/ZSSRichTextEditor.h; sourceTree = "<group>"; };
+		F2A9C8A2AA2D2802461DE00E /* ZSSRichTextEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZSSRichTextEditor.m; path = ZSSRichTextEditor/ZSSRichTextEditor.m; sourceTree = "<group>"; };
+		F9EAE57A80E15F2916E3C62C /* ZSSinsertkeyword.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZSSinsertkeyword.png; path = ZSSRichTextEditor/Images/ZSSinsertkeyword.png; sourceTree = "<group>"; };
+		FBA92D2DFC77FD3A6AD72772 /* ZSStable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSStable@2x.png"; path = "ZSSRichTextEditor/Images/ZSStable@2x.png"; sourceTree = "<group>"; };
+		FC06C88C26E884C1A3F8C748 /* ZSSindent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZSSindent@2x.png"; path = "ZSSRichTextEditor/Images/ZSSindent@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4BE2A6585A9ACD65375320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780C313803A973BE0E2ED92C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E949CEB9FAE6E1C97A236A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BF1DA84A637C8B68D96662 /* CoreGraphics.framework in Frameworks */,
+				29141A15B5A55D4186B4DD6A /* CoreText.framework in Frameworks */,
+				75BC21683CD3A23FE1EBBE7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3436BAB9407C73B6034C6851 = {
+			isa = PBXGroup;
+			children = (
+				21EBA375881FD4360BE045EF /* Podfile */,
+				44E918AFE80896C9D7AA4EFC /* Frameworks */,
+				AD52543D790CF3BC7B601431 /* Pods */,
+				5DD17E21B03596237D536936 /* Products */,
+				C36239C7F1579E6BFF17D165 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		44E918AFE80896C9D7AA4EFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA901CCAA6E8AAE11E6A7B33 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DD17E21B03596237D536936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4599D6F3A29D662520FA4DCD /* libPods.a */,
+				90F8CE0A3DA59B3488E9868A /* libPods-ZSSRichTextEditor.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		612D95E3CC3D9BBAEA23AB5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				911872976440DCE508CFC6BB /* Pods-ZSSRichTextEditor.xcconfig */,
+				C74D7E4F72B6BF2B2C5F8583 /* Pods-ZSSRichTextEditor-Private.xcconfig */,
+				0302182D11854B2BD3E1F3A6 /* Pods-ZSSRichTextEditor-dummy.m */,
+				0701BC14DB22864B0D7A202A /* Pods-ZSSRichTextEditor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ZSSRichTextEditor";
+			sourceTree = "<group>";
+		};
+		AD52543D790CF3BC7B601431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF1A77ABE6FF7A90DD798D /* ZSSRichTextEditor */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFAF1A77ABE6FF7A90DD798D /* ZSSRichTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				96BB80D45FE8017D7EA082DB /* CYRLayoutManager.h */,
+				5F0ACAEE89C29B963F83C2A1 /* CYRLayoutManager.m */,
+				D12F644FF156963E9A6FA23E /* CYRTextStorage.h */,
+				8C9636412A056B2BE3DF5BE7 /* CYRTextStorage.m */,
+				D10CD6C4E4164EAC8B2FD23F /* CYRTextView.h */,
+				3C0813EEB91F3B58E80F2BBD /* CYRTextView.m */,
+				8D72432403FD062C25A65358 /* CYRToken.h */,
+				82793916AB58450FC9579241 /* CYRToken.m */,
+				6D97396CB6655C21EBADBA1F /* HRBrightnessCursor.h */,
+				1B1F44B59AB8F784C0CB3356 /* HRBrightnessCursor.m */,
+				D023BD2E99B13C66E5A79966 /* HRCgUtil.h */,
+				9C452CCD2E2207C7C9137E54 /* HRCgUtil.m */,
+				975451AF7531DC6A063DA93A /* HRColorCursor.h */,
+				D5A47C46B0F3E17C32061504 /* HRColorCursor.m */,
+				A65D49CB9E942D8DB04DD905 /* HRColorPickerMacros.h */,
+				15FC93C11D2E40A824A15FB7 /* HRColorPickerView.h */,
+				A848C7B46DEDC15868F48C85 /* HRColorPickerView.m */,
+				C51207146F5A93EAC982572F /* HRColorPickerViewController.h */,
+				0ECEE15CF869F0E0C8E8C41A /* HRColorPickerViewController.m */,
+				90C5367440CD71120388B67F /* HRColorUtil.h */,
+				492070631FBE6825CE1306E5 /* HRColorUtil.m */,
+				9BE1DD8A6C6B31A87F72F133 /* ZSSBarButtonItem.h */,
+				0B3B885BDB3C51A1FE8606A6 /* ZSSBarButtonItem.m */,
+				89C76DCBB194B91D225655C5 /* ZSSColorViewController.h */,
+				9C239477CF568A3C8584969B /* ZSSColorViewController.m */,
+				8D4F662B8F1972D616B72F9C /* ZSSCustomButtonsViewController.h */,
+				A0B46F0370BBA76FAA2F645C /* ZSSCustomButtonsViewController.m */,
+				B59914FDEF81EB42566DE5F3 /* ZSSLargeViewController.h */,
+				05618BCD9D683DE428389815 /* ZSSLargeViewController.m */,
+				C468FD8A50D8EABA4E6FF157 /* ZSSPlaceholderViewController.h */,
+				390694E8DB86461290525426 /* ZSSPlaceholderViewController.m */,
+				F0DD84F8701BD379C14CD4B4 /* ZSSRichTextEditor.h */,
+				F2A9C8A2AA2D2802461DE00E /* ZSSRichTextEditor.m */,
+				05EA81312E9FCFEBACD569D8 /* ZSSSelectiveViewController.h */,
+				3853C23ADF827EF8F6BE0DA2 /* ZSSSelectiveViewController.m */,
+				88A2A933525F7B11BCCFD607 /* ZSSTextView.h */,
+				5EBA2B6688DB87E412008656 /* ZSSTextView.m */,
+				EF46273192788E529DCA9CE4 /* Resources */,
+				612D95E3CC3D9BBAEA23AB5F /* Support Files */,
+			);
+			path = ZSSRichTextEditor;
+			sourceTree = "<group>";
+		};
+		C36239C7F1579E6BFF17D165 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05FA98948331AC0CEBCB9DE /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D05FA98948331AC0CEBCB9DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				487D1657AB8220072803E654 /* Pods-acknowledgements.markdown */,
+				0F6F79CC4EFA114A56FDADC5 /* Pods-acknowledgements.plist */,
+				0007EFE0A6485134AF409B1A /* Pods-dummy.m */,
+				073759237BF19C00416A17D8 /* Pods-environment.h */,
+				C5FCA4EFCC67645E235AFE45 /* Pods-resources.sh */,
+				B8ECF8265B3217C417F26F52 /* Pods.debug.xcconfig */,
+				438D415406FC860D89A1D387 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		EF46273192788E529DCA9CE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD06EBC7F2EDB5D92EE95EF8 /* ZSSRichTextEditor.js */,
+				E614BA772183F2F54037FF27 /* ZSSbgcolor.png */,
+				D9408101A949B720B67FFD01 /* ZSSbgcolor@2x.png */,
+				A8B0183FAE5553D45D74FDBE /* ZSSbold.png */,
+				25C8A904540384B859E5F1CF /* ZSSbold@2x.png */,
+				EBF1BD5E1346677C7FCEA64B /* ZSScenterjustify.png */,
+				BDAF122C08E3CF646832D978 /* ZSScenterjustify@2x.png */,
+				80CBA979A62BB4656BC6A856 /* ZSSclearstyle.png */,
+				10FF6722A9EDE23A11A2DF59 /* ZSSclearstyle@2x.png */,
+				47CB2279BF2F1B953300BA66 /* ZSSforcejustify.png */,
+				B40FB20524A774FE0DAFAC89 /* ZSSforcejustify@2x.png */,
+				07819BD7FC7DF08674026B15 /* ZSSh1.png */,
+				7A3201D59C38FF2C803F3463 /* ZSSh1@2x.png */,
+				8B05798A7F0ED96C7E15EE3F /* ZSSh2.png */,
+				61C269ABFDE2273D7F9E70F4 /* ZSSh2@2x.png */,
+				306C744DAFA9E06863E1761E /* ZSSh3.png */,
+				AE2DB7B2AADC5D9DE0A3CE30 /* ZSSh3@2x.png */,
+				68C4EB53297A2AFE5CD1D2D1 /* ZSSh4.png */,
+				E049E0BD9DB15C75226761B1 /* ZSSh4@2x.png */,
+				C8228854591A7115152F5CE7 /* ZSSh5.png */,
+				BDB563CE89245E8E797D2778 /* ZSSh5@2x.png */,
+				236F3BB54A3388E974EF34A0 /* ZSSh6.png */,
+				5B4815531EB3B04499CF5D1C /* ZSSh6@2x.png */,
+				412E609491DFE2915384FEAD /* ZSShorizontalrule.png */,
+				944817C7965ABA715F6B5526 /* ZSShorizontalrule@2x.png */,
+				A2AF777D79BF5E9191E64418 /* ZSSimage.png */,
+				4B76F3174A52A304918E84EC /* ZSSimage@2x.png */,
+				3CD20055DEE9056E19DCEE5E /* ZSSindent.png */,
+				FC06C88C26E884C1A3F8C748 /* ZSSindent@2x.png */,
+				F9EAE57A80E15F2916E3C62C /* ZSSinsertkeyword.png */,
+				B1C7CF69EB697D09F39F8DEC /* ZSSinsertkeyword@2x.png */,
+				0CA0438F710DC46BACECFD68 /* ZSSitalic.png */,
+				6DAE64925E76B86E4E87D150 /* ZSSitalic@2x.png */,
+				C3436927C5D522E00E216661 /* ZSSkeyboard.png */,
+				72BC75796F7258346382C6A4 /* ZSSkeyboard@2x.png */,
+				5DD66C7EDAE03D1D76041AA7 /* ZSSleftjustify.png */,
+				53AC8068F804B167EAFD784E /* ZSSleftjustify@2x.png */,
+				2576ADB10DA8C85B41D81E48 /* ZSSlink.png */,
+				815E5F4A56FBBBACC94A3EEF /* ZSSlink@2x.png */,
+				2FA692EB96A7792B3C776852 /* ZSSorderedlist.png */,
+				AD0201D914FF91288B59305E /* ZSSorderedlist@2x.png */,
+				376BB08F5C27D49DDC63EBFD /* ZSSoutdent.png */,
+				3EAFCA6CF7A011E41193A1AE /* ZSSoutdent@2x.png */,
+				15D8F93BD6D510E418351C95 /* ZSSparagraph.png */,
+				41D70D552A753201023E7332 /* ZSSparagraph@2x.png */,
+				0B3BFE1DFEA9812C4E190646 /* ZSSpicker.png */,
+				6F4468571607D0CDFA1FBE2C /* ZSSpicker@2x.png */,
+				18AC595D7EB07E16CE381471 /* ZSSquicklink.png */,
+				14EFF0BE7F2247A683AFE3FE /* ZSSquicklink@2x.png */,
+				8405B1380D27DD3A47030F11 /* ZSSredo.png */,
+				0AF864F01D89DF62F1298F2D /* ZSSredo@2x.png */,
+				8AD8F28ED9D2619A864D2164 /* ZSSrightjustify.png */,
+				C7985D067EA4265676D52AE3 /* ZSSrightjustify@2x.png */,
+				822BD960C58A68987353A173 /* ZSSstrikethrough.png */,
+				7D162F811076BA6CA0F82B84 /* ZSSstrikethrough@2x.png */,
+				8320A16203A45D89FDAFB864 /* ZSSsubscript.png */,
+				DD278486E8338DCAE1E64152 /* ZSSsubscript@2x.png */,
+				D9F13A04A46747660CAA8808 /* ZSSsuperscript.png */,
+				62D2F78AA2009C53F2A8FB8E /* ZSSsuperscript@2x.png */,
+				D3539983CDA5199B6A38940E /* ZSStable.png */,
+				FBA92D2DFC77FD3A6AD72772 /* ZSStable@2x.png */,
+				932C0DAC052175390004141C /* ZSStextcolor.png */,
+				51F9181A2C475064C9EF2617 /* ZSStextcolor@2x.png */,
+				43C4AB7AB0E2125784B6A13C /* ZSSunderline.png */,
+				E4B03D81B2AFA52A536C9102 /* ZSSunderline@2x.png */,
+				967E61C6B853AEE45BB68463 /* ZSSundo.png */,
+				831DCFE469A2A890FF85E201 /* ZSSundo@2x.png */,
+				26219C89D5197F2D1310BD0D /* ZSSunlink.png */,
+				3AA2C33F5BCB2DE4CF8663E2 /* ZSSunlink@2x.png */,
+				347BFA4E41FB7FEE3A35E479 /* ZSSunorderedlist.png */,
+				4584E50731CC8D0A09B7D1F3 /* ZSSunorderedlist@2x.png */,
+				AAAC37F5EDF8D2DA2BAD28B0 /* ZSSviewsource.png */,
+				57FB10820CB1B636CA8F08E7 /* ZSSviewsource@2x.png */,
+				9977EF7EBF984EF683EC2C91 /* editor.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FA901CCAA6E8AAE11E6A7B33 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1CEA98DF9EB2AFDD11C4E0C /* CoreGraphics.framework */,
+				087AE40214A030B11C25919C /* CoreText.framework */,
+				1C710843F9FE14EFAF5A5930 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C4E731E960B4D4E772957773 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD1C77576A0B0803474E931 /* CYRLayoutManager.h in Headers */,
+				4559F04CB95FF02F46E88EA8 /* CYRTextStorage.h in Headers */,
+				DCEC63D6C0F16453F9BAAF5B /* CYRTextView.h in Headers */,
+				6EA4CCBE6AD69392495A92C1 /* CYRToken.h in Headers */,
+				6BCFED1E7F3A9B834D57E135 /* HRBrightnessCursor.h in Headers */,
+				F3886E77A29601059A218239 /* HRCgUtil.h in Headers */,
+				0AD37639C1A9396A132EE846 /* HRColorCursor.h in Headers */,
+				308F57CB99655E069EB8F200 /* HRColorPickerMacros.h in Headers */,
+				4677B6E750997E700F769F62 /* HRColorPickerView.h in Headers */,
+				4E86FA0E4B84D6D4CDF8E8D6 /* HRColorPickerViewController.h in Headers */,
+				522AA360EB4BDBA301B7BE03 /* HRColorUtil.h in Headers */,
+				8EAEC71EC6AEA15EECC87CB4 /* ZSSBarButtonItem.h in Headers */,
+				CF92D28060A3838D54E7A6E8 /* ZSSColorViewController.h in Headers */,
+				7FB7A02FDEBFF9B517F65805 /* ZSSCustomButtonsViewController.h in Headers */,
+				A56E58F430709EEE350F631F /* ZSSLargeViewController.h in Headers */,
+				E16F2E3C3256AD0DDA6EF2CA /* ZSSPlaceholderViewController.h in Headers */,
+				B6F038DD01415506F2B15124 /* ZSSRichTextEditor.h in Headers */,
+				B1C22748ECE97175F74D6450 /* ZSSSelectiveViewController.h in Headers */,
+				C1BCC08041E0B8A90195C9C6 /* ZSSTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F412A182DC14A700E4EBDE4 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F86C122098A26EBFAB43DF /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				1F9D19164F710792A9C653BC /* Sources */,
+				2D4BE2A6585A9ACD65375320 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF82DAC22806F82E45C79754 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 4599D6F3A29D662520FA4DCD /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D8521E9119C553AFC42C8BEE /* Pods-ZSSRichTextEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870E437C64D81C99050FE32F /* Build configuration list for PBXNativeTarget "Pods-ZSSRichTextEditor" */;
+			buildPhases = (
+				8AEF235DC2F913AC044F11B1 /* Sources */,
+				67E949CEB9FAE6E1C97A236A /* Frameworks */,
+				C4E731E960B4D4E772957773 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZSSRichTextEditor";
+			productName = "Pods-ZSSRichTextEditor";
+			productReference = 90F8CE0A3DA59B3488E9868A /* libPods-ZSSRichTextEditor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4289B897517BEA2A2801352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 084312677E74A3F9A748E10F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3436BAB9407C73B6034C6851;
+			productRefGroup = 5DD17E21B03596237D536936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F412A182DC14A700E4EBDE4 /* Pods */,
+				D8521E9119C553AFC42C8BEE /* Pods-ZSSRichTextEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9D19164F710792A9C653BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC99EA505D3EA7DC99AE70F /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEF235DC2F913AC044F11B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29B64B71F2B8EE118F9FD38 /* CYRLayoutManager.m in Sources */,
+				4FF1ACCDB9C6F6D161CE1EA2 /* CYRTextStorage.m in Sources */,
+				ECF67E5303EAAAF483ED102B /* CYRTextView.m in Sources */,
+				0684D5E7951C7E26F99EAB6E /* CYRToken.m in Sources */,
+				45989BF509FC1618C4718674 /* HRBrightnessCursor.m in Sources */,
+				4D576B6B5B27EFD2392E92C3 /* HRCgUtil.m in Sources */,
+				3E427672C3931B4F3C83511B /* HRColorCursor.m in Sources */,
+				CE37D70D881BDDBD98B4C1BF /* HRColorPickerView.m in Sources */,
+				866C56BE6A1C21D318F9FC0A /* HRColorPickerViewController.m in Sources */,
+				C18F53F221BB32161DCF2CA6 /* HRColorUtil.m in Sources */,
+				F61CACD1BECE7614EA0F6CB0 /* Pods-ZSSRichTextEditor-dummy.m in Sources */,
+				53259C1FB1D4E8D177B8A04B /* ZSSBarButtonItem.m in Sources */,
+				3DEC318ED9A6B747E56D82AA /* ZSSColorViewController.m in Sources */,
+				3FB5B70824E9560306B7E68F /* ZSSCustomButtonsViewController.m in Sources */,
+				7815F1F03B38E22DC94FDF54 /* ZSSLargeViewController.m in Sources */,
+				88821B3992EA069EE6673241 /* ZSSPlaceholderViewController.m in Sources */,
+				3BA930072942CC46B8331C7A /* ZSSRichTextEditor.m in Sources */,
+				55510AEE1D4B8E08C5A60BB7 /* ZSSSelectiveViewController.m in Sources */,
+				78CFC672570599D9B1F4DD0D /* ZSSTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF82DAC22806F82E45C79754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZSSRichTextEditor";
+			target = D8521E9119C553AFC42C8BEE /* Pods-ZSSRichTextEditor */;
+			targetProxy = DE04F5E646D8C39A2AD90D35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		261EC152BAF6E6FA8662C8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74D7E4F72B6BF2B2C5F8583 /* Pods-ZSSRichTextEditor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZSSRichTextEditor/Pods-ZSSRichTextEditor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		400C5982658C80146E4C83B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74D7E4F72B6BF2B2C5F8583 /* Pods-ZSSRichTextEditor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZSSRichTextEditor/Pods-ZSSRichTextEditor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		421CDFED108C6669212FA1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C935DA58205265420B9B12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8ECF8265B3217C417F26F52 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A053785069CEDF856B627A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438D415406FC860D89A1D387 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EE556A9EB1BDCF4F5C86CE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		084312677E74A3F9A748E10F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE556A9EB1BDCF4F5C86CE83 /* Debug */,
+				421CDFED108C6669212FA1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F86C122098A26EBFAB43DF /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C935DA58205265420B9B12B /* Debug */,
+				A053785069CEDF856B627A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870E437C64D81C99050FE32F /* Build configuration list for PBXNativeTarget "Pods-ZSSRichTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400C5982658C80146E4C83B0 /* Debug */,
+				261EC152BAF6E6FA8662C8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4289B897517BEA2A2801352 /* Project object */;
+}

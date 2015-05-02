@@ -11,7 +11,7 @@ import UIKit
 class RootTableViewController: UITableViewController {
     override func viewDidLoad() {
         
-        self.tableView.backgroundColor = UIColor.getColorBYHEX("#F1F1F1")
+        self.tableView.backgroundColor = UIColor.whiteColor()
         
         if (self.navigationItem.rightBarButtonItem != nil) {
             self.navigationItem.rightBarButtonItem = self.editButtonItem()

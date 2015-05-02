@@ -21,8 +21,7 @@ class DisplayEventViewController: RootViewController {
         var htmlURL = DocumentHelper.getDocumentDirectory().stringByAppendingPathComponent(tripName)
         let baseURL = NSURL(fileURLWithPath: htmlURL)
         htmlURL = htmlURL.stringByAppendingPathComponent(url)
-        
-        println(htmlURL)
+
         
         let string = String(contentsOfURL: NSURL(fileURLWithPath: htmlURL)!, encoding: NSUTF8StringEncoding, error: nil)
         

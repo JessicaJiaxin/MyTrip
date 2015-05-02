@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114CC1961AF55D8100AD9199 /* EditEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CC1951AF55D8100AD9199 /* EditEventViewController.swift */; };
 		862B84BBAF008E1B75E00751 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AE8976E2074D961399546D /* libPods.a */; };
 		D257FC9A1AD0ED5C003510DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257FC991AD0ED5C003510DC /* AppDelegate.swift */; };
 		D257FC9D1AD0ED5C003510DC /* MyTrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D257FC9B1AD0ED5C003510DC /* MyTrip.xcdatamodeld */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114CC1951AF55D8100AD9199 /* EditEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditEventViewController.swift; sourceTree = "<group>"; };
 		832EA616FE3BF9BA825243A0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A6AE8976E2074D961399546D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD419370E9072B37EF18CC1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 		D257FC961AD0ED5C003510DC /* MyTrip */ = {
 			isa = PBXGroup;
 			children = (
+				114CC1951AF55D8100AD9199 /* EditEventViewController.swift */,
 				D27D2F131AE6E07B0051F79F /* About */,
 				D27D2ED71AE6D9EB0051F79F /* AddNewEvent */,
 				D27D2ED41AE6D9B50051F79F /* DisplayEvent */,
@@ -546,6 +549,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B9F0281AD39F1E005E698A /* CustomAlertController.swift in Sources */,
+				114CC1961AF55D8100AD9199 /* EditEventViewController.swift in Sources */,
 				D27D2EDB1AE6DA170051F79F /* AddNewTripViewController.swift in Sources */,
 				D27D2EF21AE6DA740051F79F /* RootTableViewController.swift in Sources */,
 				D27D2ED61AE6D9C30051F79F /* AddNewEventViewController.swift in Sources */,

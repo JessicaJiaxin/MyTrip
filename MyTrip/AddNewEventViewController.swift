@@ -39,8 +39,18 @@ class AddNewEventViewController: ZSSRichTextEditor, UIImagePickerControllerDeleg
         //create custom button
         let imageButton = ZSSBarButtonItem(image: UIImage(named: "addImage"), style: .Plain, target: self, action: "addImageFromLocal")
         self.addCustomToolbarItem(imageButton)
-
-        self.toolbarItemTintColor = UIColor.blackColor()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navigationController?.toolbarHidden = true
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        self.navigationController?.toolbarHidden = false
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -86,11 +96,6 @@ class AddNewEventViewController: ZSSRichTextEditor, UIImagePickerControllerDeleg
         self.presentViewController(menuController, animated: true, completion: nil)
         
     }
-
-    
-    func insertLocation () {
-        
-    }
     
     //Pragma mark - UIImagePickerControllerDelegate
     
@@ -109,7 +114,6 @@ class AddNewEventViewController: ZSSRichTextEditor, UIImagePickerControllerDeleg
         let htmlSegment = "<img src=\"\(imageName!)\" width=\"\(UIScreen.mainScreen().bounds.width - 5)\" height = \"\(UIScreen.mainScreen().bounds.width - 5)\">"
         
         self.focusTextEditor()
-        self.baseURL = NSURL(fileURLWithPath: filePath)
         self.insertHTML(htmlSegment)
         
         picker.dismissViewControllerAnimated(true, completion: nil)
@@ -137,7 +141,7 @@ class AddNewEventViewController: ZSSRichTextEditor, UIImagePickerControllerDeleg
                 
                 //create thumbnail with image
                 let image = UIImage(contentsOfFile: imagePath)
-                let thumbnailSize = CGSizeMake(75, 75)
+                let thumbnailSize = CGSizeMake(60, 60)
                 
                 UIGraphicsBeginImageContext(thumbnailSize)
                 image?.drawInRect(CGRectMake(0, 0, thumbnailSize.width, thumbnailSize.height))

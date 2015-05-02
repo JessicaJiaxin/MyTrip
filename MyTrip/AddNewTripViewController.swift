@@ -9,7 +9,7 @@
 import UIKit
 import MobileCoreServices
 
-class AddNewTripViewController: RootViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, ImageCropViewControllerDelegate, NoteInputAccessoryViewDelegate {
+class AddNewTripViewController: RootViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, ImageCropViewControllerDelegate, NoteInputAccessoryViewDelegate, UITextFieldDelegate {
 	
 	@IBOutlet var titileArea: UIView!
 	@IBOutlet var titleInput: UITextField!
@@ -24,6 +24,8 @@ class AddNewTripViewController: RootViewController, UIImagePickerControllerDeleg
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+        
+        self.titleInput.delegate = self
 		
 		saveButton.enabled = false
 		NSNotificationCenter.defaultCenter().addObserver(self, selector: "textFieldDidChange", name: UITextFieldTextDidChangeNotification, object: titleInput)
@@ -85,7 +87,7 @@ class AddNewTripViewController: RootViewController, UIImagePickerControllerDeleg
 		
 		//set title interface
 		titileArea.layer.masksToBounds = false
-		titileArea.layer.backgroundColor = UIColor.getColorBYHEX("#E1E2E2").CGColor
+		titileArea.layer.backgroundColor = UIColor.whiteColor().CGColor
 		titileArea.layer.cornerRadius = 2.0
 		titileArea.layer.borderColor = UIColor.grayColor().CGColor
 		titileArea.layer.borderWidth = 1.0
@@ -96,8 +98,9 @@ class AddNewTripViewController: RootViewController, UIImagePickerControllerDeleg
 		
 		
 		//set note interface
+        noteInput.clipsToBounds = true
 		noteInput.layer.masksToBounds = false
-		noteInput.layer.backgroundColor = UIColor.getColorBYHEX("#E1E2E2").CGColor
+		noteInput.layer.backgroundColor = UIColor.whiteColor().CGColor
 		noteInput.layer.cornerRadius = 2.0
 		noteInput.layer.borderColor = UIColor.grayColor().CGColor
 		noteInput.layer.borderWidth = 1.0
@@ -108,7 +111,7 @@ class AddNewTripViewController: RootViewController, UIImagePickerControllerDeleg
 		
 		//set cover interface
 		cover.layer.masksToBounds = false
-		cover.layer.backgroundColor = UIColor.getColorBYHEX("#E1E2E2").CGColor
+		cover.layer.backgroundColor = UIColor.whiteColor().CGColor
 		cover.layer.cornerRadius = 2.0
 		cover.layer.borderColor = UIColor.grayColor().CGColor
 		cover.layer.borderWidth = 1.0
@@ -135,6 +138,13 @@ class AddNewTripViewController: RootViewController, UIImagePickerControllerDeleg
 		
 		self.navigationController?.toolbarHidden = false
 	}
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        if (textField == titleInput) {
+            self.noteInput.becomeFirstResponder()
+        }
+        return true
+    }
 	
 	//Pragma mark - UIImagePickerControllerDelegate
 	
@@ -173,7 +183,6 @@ class AddNewTripViewController: RootViewController, UIImagePickerControllerDeleg
     func didHideKeyboard(hideKeyboard: UIButton) {
         noteInput.resignFirstResponder()
     }
-
 	
 	@IBAction func saveClicked(sender: AnyObject) {
         let context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext

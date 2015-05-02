@@ -19,6 +19,8 @@ class CurrentTripViewController: RootTableViewController, NSFetchedResultsContro
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.tableView.allowsSelectionDuringEditing = true
+        
         //get current trip
         let context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
         let fetchRequest = CoreDataManager.createFetchRequest(context, managedEntityName: "Trip", sortDescriptorNames: ["creationdate"])
@@ -62,9 +64,13 @@ class CurrentTripViewController: RootTableViewController, NSFetchedResultsContro
             viewController.url = values[0]
             viewController.title = values[1]
             viewController.tripName = tripName
+        }else if segue.identifier == "editEvent" {
+            let viewController = segue.destinationViewController as! EditEventViewController
+            let value = sender as! Event
+            viewController.event = value
         }
     }
-    
+
     //pragma mark - Fetched result Controller
     func initialFetchedResultController() -> NSFetchedResultsController {
         let context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
@@ -156,13 +162,17 @@ class CurrentTripViewController: RootTableViewController, NSFetchedResultsContro
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 103;
+        return 83;
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let eventCell = tableView.cellForRowAtIndexPath(indexPath) as! EventCell
         
-        self.performSegueWithIdentifier("showContent", sender: [eventCell.eventHtmlPath, eventCell.eventName.text])
+        if tableView.editing {
+            self.performSegueWithIdentifier("editEvent", sender: fetchedResultController.objectAtIndexPath(indexPath))
+        }else {
+            self.performSegueWithIdentifier("showContent", sender: [eventCell.eventHtmlPath, eventCell.eventName.text])
+        }
     }
     
     override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {

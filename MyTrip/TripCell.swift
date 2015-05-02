@@ -20,11 +20,12 @@ class TripCell: UITableViewCell {
         super.awakeFromNib()
         
         self.canvas.layer.masksToBounds = false
-        self.canvas.layer.cornerRadius = 2.0
-        self.canvas.layer.borderColor = UIColor.grayColor().CGColor
-        self.canvas.layer.borderWidth = 1.0
-        self.canvas.layer.shadowColor = UIColor.blackColor().CGColor
-        self.canvas.layer.shadowRadius = 1.5
+        self.canvas.layer.cornerRadius = 2.3
+        self.canvas.layer.backgroundColor = UIColor.getColorBYHEX("#FCFCFC").CGColor
+        self.canvas.layer.borderColor = UIColor.getColorBYHEX("#BBBBBB").CGColor
+        self.canvas.layer.borderWidth = 0.8
+        self.canvas.layer.shadowColor = UIColor.grayColor().CGColor
+        self.canvas.layer.shadowRadius = 0.5
         self.canvas.layer.shadowOpacity = 2
         self.canvas.layer.shadowOffset = CGSizeMake(0, 1)
     }

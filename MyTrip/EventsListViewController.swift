@@ -19,6 +19,7 @@ class EventsListViewController: RootTableViewController, NSFetchedResultsControl
         super.viewDidLoad()
         
         self.title = tripName;
+        self.tableView.allowsSelectionDuringEditing = true
         
         let nib = UINib(nibName: "EventCell", bundle: nil)
         self.tableView.registerNib(nib, forCellReuseIdentifier: "event")
@@ -37,6 +38,10 @@ class EventsListViewController: RootTableViewController, NSFetchedResultsControl
             viewController.url = values[0]
             viewController.title = values[1]
             viewController.tripName = tripName
+        }else if segue.identifier == "editEvent" {
+            let viewController = segue.destinationViewController as! EditEventViewController
+            let value = sender as! Event
+            viewController.event = value
         }
     }
     
@@ -131,13 +136,17 @@ class EventsListViewController: RootTableViewController, NSFetchedResultsControl
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 103;
+        return 83;
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let eventCell = tableView.cellForRowAtIndexPath(indexPath) as! EventCell
         
-        self.performSegueWithIdentifier("showContent", sender: [eventCell.eventHtmlPath, eventCell.eventName.text])
+        if tableView.editing {
+            self.performSegueWithIdentifier("editEvent", sender: fetchedResultController.objectAtIndexPath(indexPath))
+        }else {
+            self.performSegueWithIdentifier("showContent", sender: [eventCell.eventHtmlPath, eventCell.eventName.text])
+        }
     }
     
     override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {

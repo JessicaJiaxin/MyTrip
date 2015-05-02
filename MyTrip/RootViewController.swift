@@ -12,7 +12,7 @@ class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor.getColorBYHEX("#F1F1F1")
+        self.view.backgroundColor = UIColor.whiteColor()
         
         if self.revealViewController() != nil {
             if let menuButton = self.navigationItem.leftBarButtonItem {

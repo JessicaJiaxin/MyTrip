@@ -32,4 +32,4 @@ It is a native iOS Application that allows us to build a diary of our trip. It w
     - Trip Cell
 
 
-![Alt text](./ScreenShots/AddNewEvent.png = 225x400)
+![Alt text](./MyTrip/ScreenShots/AddNewEvent.png = 225x400)

@@ -30,3 +30,6 @@ It is a native iOS Application that allows us to build a diary of our trip. It w
 - Custom TableViewCell
     - Event Cell
     - Trip Cell
+
+### Screen Shot
+![Alt text](./ScreenShots/AddNewEvent.png)
